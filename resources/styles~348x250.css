@@ -1,0 +1,95 @@
+.background {
+  fill: black;
+}
+
+.minutes {
+  font-size: 66;
+  font-family: Colfax-Regular;
+}
+
+.current {
+/*   fill: green;   */
+}
+
+.upcoming {
+/*   fill: blue; */
+}
+
+text {
+  fill: white;
+  text-length: 50;
+}
+
+textarea {
+  fill: white;
+  text-length: 50;
+}
+
+.aux-data {
+  font-size: 24;
+  font-family: Colfax-Regular;
+}
+
+#activity {
+  fill: #2490dd;
+  width: 24;
+  height: 24;
+  x: 2%;
+  y: 89%;
+}
+
+#hours {
+  font-size: 66;
+  font-family: Colfax-Bold;
+  x: 2%;
+  y: 20%;
+}
+#hoursNext {
+  font-size: 66;
+  font-family: Colfax-Bold;
+  x: 102%;
+  y: 20%;
+}
+
+#tens {
+  x: 2%;
+  y: 46%;
+}
+
+#tensNext {
+  x: 102%;
+  y: 46%;
+}
+
+
+#minutes {
+  x: 2%;
+  y: 72%;
+}
+
+#minutesNext {
+  x: 102%;
+  y: 72%;
+}
+
+#heartrate {
+  x: 2%;
+  y: 87%;
+}
+
+#stepcount {
+  x: 36;
+  y: 97%;
+}
+
+#dayofweek {
+  x: 98%;
+  y: 87%;
+  text-anchor: end;
+}
+
+#date {
+  x: 98%;
+  y: 97%;
+  text-anchor: end;
+}

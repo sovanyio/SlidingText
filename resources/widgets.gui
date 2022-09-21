@@ -1,0 +1,43 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    
+    <symbol id="hoursGroup">
+      <g>
+        <text id="hours" class="current" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+    <symbol id="hoursNextGroup">
+      <g>
+        <text id="hoursNext" class="upcoming" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+    <symbol id="tensGroup">
+      <g>
+        <text id="tens" class="current minutes" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate+.25" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+    <symbol id="tensNextGroup">
+      <g>
+        <text id="tensNext" class="upcoming minutes" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate+.25" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+    <symbol id="minutesGroup">
+      <g>
+        <text id="minutes" class="current minutes" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate+.5" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+    <symbol id="minutesNextGroup">
+      <g>
+        <text id="minutesNext" class="upcoming minutes" />
+        <animateTransform attributeType="translate" from="0%" to="-100%" begin="activate+.5" final="restore" easing="ease-in-out" dur=".5" />
+      </g>
+    </symbol>
+  </defs>
+</svg>

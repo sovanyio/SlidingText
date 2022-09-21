@@ -1,0 +1,13 @@
+<svg id="root">
+  <rect x="0" y="0" width="100%" height="100%" class="background" id="background" />
+  <use id="hoursCont" href="#hoursGroup" /><use id="hoursNextCont" href="#hoursNextGroup" />
+  <use id="tensCont" href="#tensGroup" /><use id="tensNextCont" href="#tensNextGroup" />
+  <use id="minutesCont" href="#minutesGroup" /><use id="minutesNextCont" href="#minutesNextGroup" />
+  
+  <text id="heartrate" class="aux-data"></text>
+  <image id="activity" href="stat_steps.png" load="sync" /><text id="stepcount" class="aux-data"></text>
+  
+  <text id="dayofweek" class="aux-data"></text>
+  <text id="date" class="aux-data"></text>
+  <rect id="batteryLevel" x="100%" y="100%-2" height="2" width="0" fill="white" fill="white" />
+</svg>

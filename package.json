@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "91b8e628-947d-4509-ad00-4d69c1d6e536",
+    "appType": "clockface",
+    "appDisplayName": "Sliding Text Improved",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira",
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Sliding Text Improved"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

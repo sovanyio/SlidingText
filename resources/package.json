@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "3c089280-5756-4ddb-ad03-34f25808908e",
+    "appType": "clockface",
+    "appDisplayName": "Sliding Text Improved",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Sliding Text Improved"
+      }
+    }
+  }
+}
