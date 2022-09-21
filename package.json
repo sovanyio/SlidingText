@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@fitbit/sdk": "~4.3.0",
+    "@fitbit/sdk": "~6.1.0",
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
@@ -14,10 +14,8 @@
       "access_heart_rate"
     ],
     "buildTargets": [
-      "meson",
-      "gemini",
-      "mira",
-      "higgs"
+      "vulcan",
+      "atlas"
     ],
     "i18n": {
       "en-US": {
