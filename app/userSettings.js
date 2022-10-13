@@ -1,7 +1,7 @@
 import document from "document";
 import {preferences} from "user-settings";
 import * as messaging from 'messaging';
-import fs from 'fs';
+import * as fs from 'fs';
 
 export default class SettingsManager {
     constructor(domHelper) {
